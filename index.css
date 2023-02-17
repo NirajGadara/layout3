@@ -5,59 +5,71 @@
 }
 ul{
     list-style-type: square;
-    color: aliceblue;
+    direction: rtl;
+    font-weight: bolder;
+    /* padding-right: 10%; */
 }
 /* comman css end */
 
 /* header css start */
-.content_left{
-
-}
-.header_image img{
+.header_image{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 900px;
 }
-.content_right{
-
+.logo{
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 75px;
+    height: 20px;
+    background-color: rgb(25, 136, 180);
+}
+.content_left{
+    background-color: rgba(36, 36, 36, 0.479);
+    height: 5%;
+    width: 850px;
+}
+.logo2{
+    margin-top: -4%;
+    padding-left: 9%;
+    font-weight: bolder;
+    font-size: 128px;
+    color: aliceblue;
 }
 .text_right{
+    color: aliceblue;
+    background-color: rgba(193, 193, 193, 0.341);
     font-size: 40px;
-    font-weight: bolder;
-    position: absolute;
-    width: 32%;
-    height: 70%;
-    background-color: rgba(240, 248, 255, 0.4);
+    height: 600px;
+    margin-left: -3%;
+    padding-top: 35%;
+    padding-right: 10%;
 }
-.content_left_2{
-    color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 0, 0.467);
-    position: absolute;
-    top: 70%;
-    width: 68.5%;
-    padding: 2%;
+.text_right_2{
+    color: aliceblue;
+    background-color: rgba(65, 65, 65, 0.742);
+    font-size: 25px;
+    margin-left: -3%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
 }
-.header_text_left{
-    font-size: 60px;
-    font-weight: bolder;
+.text_header{
+    color: aliceblue;
+    font-weight:bolder;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: -6%;
 }
-.header_text_left2{
-    font-size: 40px;
-    font-weight: bold;
+.text_header2{
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: -2%;
 }
 
-.content_right_2{
-    position: absolute;
-    top: 70%;
-    left: 67%;
-    width: 33%;
-    height: 35%;
-    padding-top: 5%;
-    text-align:right;
-    color: white;
-    background-color: rgba(146, 146, 146, 0.152);
-}
-.header_text_right{
-    font-size: 30px;
-    font-weight: bolder;
-}
 /* header css end  */
