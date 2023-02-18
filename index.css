@@ -7,55 +7,68 @@ ul{
     list-style-type: square;
     direction: rtl;
     font-weight: bolder;
-    /* padding-right: 10%; */
+    padding-right: 10%;
 }
 /* comman css end */
 
-/* header css start */
+.main_header{
+    padding-top: 0.5%;
+}
 .header_image{
     background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406__480.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 100%;
+}
+.text_left_top{
+    background-color: rgba(36, 36, 36, 0.747);
+    width: 100%;
 }
 .logo{
-    margin-top: 8%;
-    margin-left: 10%;
     width: 75px;
     height: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
     background-color: rgb(25, 136, 180);
 }
-.content_left{
-    background-color: rgba(36, 36, 36, 0.479);
-    height: 5%;
-    width: 850px;
-}
 .logo2{
-    margin-top: -4%;
-    padding-left: 9%;
     font-weight: bolder;
-    font-size: 128px;
+    font-size: 800%;
     color: aliceblue;
+    margin-top: -5%;
+    margin-left: 9%;
 }
 .text_right{
+    
+}
+.text_right_top{
+    background-color: rgba(196, 196, 196, 0.39);
+    width: 100%;
     color: aliceblue;
-    background-color: rgba(193, 193, 193, 0.341);
     font-size: 40px;
-    height: 600px;
-    margin-left: -3%;
-    padding-top: 35%;
+    height: 100%;
+    text-align:justify;
+    padding-top: 8%;
     padding-right: 10%;
 }
-.text_right_2{
+.list{
+    font-size: 100%;
     color: aliceblue;
-    background-color: rgba(65, 65, 65, 0.742);
-    font-size: 25px;
+    padding-top: 25%;
+    padding-bottom: 20%;
+    padding-right: 15%;
+}
+.text_right_bottom{
+    width: 100%;
+    height: 100%;
     margin-left: -3%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+.address{
+    color: aliceblue;
+    font-size: 20px;
     text-align: end;
 }
 .text_header{
@@ -71,5 +84,143 @@ ul{
     margin-left: 10%;
     margin-top: -2%;
 }
+.text_left_center{
+    margin: 19%;
+    width: 100%;
+}
+.text_left_bottom{
+    background-color: rgba(255, 255, 0, 0.562); 
+    width: 100%;
+    margin-top: 35%;
+    height: 100%;
+}
+.text_left1{
+    font-size: 80px;
+    color: aliceblue;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-weight: bolder;
+}
+.text_left2{
+    font-size: 60px;
+    padding-left: 10%;
+    margin-top: -5%;
+    color: aliceblue;
+}
+.center_left{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color:rgba(218, 191, 205, 0.788);
+}
+.center_heading{
+    font-size: 60px;
+    color: rgb(223, 50, 50);
+    font-weight: bolder;
+}
 
-/* header css end  */
+.center_text{
+    font-size: 40px;
+    color: rgb(83,83,83);
+    font-weight: bold;
+    margin-top: -3%;
+}
+.center_text2{
+    font-size: 30px;
+    margin-top: -3%;
+    color: rgb(83, 83, 83);
+}
+.bottom_left{
+    background-color: aliceblue;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-bottom: 1% solid black;
+}
+.bottom_left_heading{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(223, 50, 50);
+}
+.bottom_left_heading2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(83,83,83);
+}
+.bottom_left_text{
+    font-size: 25px;
+    color: rgb(83,83,83);
+    text-transform:uppercase;
+    padding-bottom: 5%;
+}
+.bottom_left_text2{
+    font-size: 15px;
+    color: rgb(83,83,83);
+    text-transform:uppercase;
+    padding-bottom: 5%;
+}
+.bottom_left_text3{
+    font-size: 15px;
+    color: rgb(83,83,83);
+    text-transform:uppercase;
+    padding-bottom: 5%;
+}
+
+.center_right{
+    color: aliceblue;
+    background-color: rgb(49, 179, 211) ;
+}
+.center_logo img{  
+    padding-top: 80%;
+    padding-left: 20%; 
+}
+.coded{
+    padding-top: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.coded2{
+    margin-top: -10%;
+}
+
+.bottom_right{
+    text-align: end;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.bottom_right_text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(49, 179, 211);
+    padding-bottom: 5%;
+}
+.bottom_right_text1{
+    font-size: 35px;
+    margin-top: -10%;
+    font-weight: bolder;
+    color: rgb(83, 83, 83);
+    padding-bottom: 5%;
+}
+.bottom_right_text2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(83, 83, 83);
+}
+.bottom_right_text3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(83, 83, 83);
+    padding-bottom: 5%;
+    margin-top: -3%;
+}
+.bottom_right_text4{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 2%;
+    color: rgb(83, 83, 83);
+}
+.trophy_image{
+    color: rgb(83, 83, 83);
+    padding-bottom: 5%;
+}
